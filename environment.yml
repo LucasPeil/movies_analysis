@@ -1,0 +1,21 @@
+name: movies_analysis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13.5
+  - pip
+  - git
+  - curl
+# Pacotes científicos via conda (melhor performance)
+  - numpy
+  - pandas
+  - matplotlib
+  - scipy
+  - seaborn
+  - statsmodels
+# Jupyter para desenvolvimento
+  - jupyter
+  - jupyterlab
+  - pip:
+    - -r requirements.txt
