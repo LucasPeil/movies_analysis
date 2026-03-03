@@ -69,4 +69,4 @@ def save_movies():
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 if __name__ == "__main__":
     print('Loading Movies Database...')
-    # save_movies()
+    save_movies()
